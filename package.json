@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "it's just a practice",
+  "main": "Route.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon first.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajivransom/NODE-JS-REQUEST-HANDLER.git"
+  },
+  "author": "Rajiv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajivransom/NODE-JS-REQUEST-HANDLER/issues"
+  },
+  "homepage": "https://github.com/rajivransom/NODE-JS-REQUEST-HANDLER#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path-util": "^0.3.0"
+  }
+}
